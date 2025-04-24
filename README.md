@@ -39,3 +39,25 @@ MemorAI is a full-stack Progressive Web App (PWA) designed to supercharge your l
 - **Python 3.8+**
 - **Node.js & npm (v16+)**
 - **Git** (optional, for cloning)
+
+  ## ⚙️ Installation
+
+### Backend
+
+1. Clone the repo and navigate to `backend/`:
+   ```cmd
+   git clone https://github.com/your-org/memorai.git
+   cd memorai/backend
+   python3 -m venv venv
+   source venv/bin/activate   # Linux/macOS
+   venv\\Scripts\\activate    # Windows
+
+   pip install -r requirements.txt
+
+
+### Frontend
+
+1. navigate to `frontend/`:
+   ```cmd
+   npm install
+   npm start
