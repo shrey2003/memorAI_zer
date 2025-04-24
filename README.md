@@ -1,4 +1,4 @@
-# 🚀 MemorAI
+# 🚀 MemorAI_zer
 
 **Your AI-Powered Learning Companion**
 
