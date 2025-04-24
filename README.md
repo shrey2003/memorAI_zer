@@ -26,11 +26,8 @@ MemorAI is a full-stack Progressive Web App (PWA) designed to supercharge your l
    - [Frontend](#frontend)
 3. [Running the App](#-running-the-app)
 4. [Project Structure](#-project-structure)
-5. [Configuration & Tips](#-configuration--tips)
-6. [Roadmap & Next Steps](#-roadmap--next-steps)
-7. [Contributing](#-contributing)
-8. [License](#-license)
-9. [Contact](#-contact)
+5. [Roadmap & Next Steps](#-roadmap--next-steps)
+
 
 ---
 
@@ -61,3 +58,19 @@ MemorAI is a full-stack Progressive Web App (PWA) designed to supercharge your l
    ```cmd
    npm install
    npm start
+
+## 📂 Project Structure
+   ```
+      memorai/
+   ├── backend/               # Flask API & AI pipelines
+   │   ├── app.py             # Main server
+   │   ├── drl_scheduler.py   # DRL-based scheduler
+   │   ├── bkt_model.py       # BKT mastery tracker
+   │   ├── requirements.txt   # Python deps
+   │   └── models/            # Cached model weights
+   ├── frontend/              # React PWA
+   │   ├── public/            # Static assets & manifest
+   │   ├── src/               # App source code
+   │   ├── package.json       # npm config
+   │   └── README.md          # Frontend notes
+   └── README.md              # This guide
